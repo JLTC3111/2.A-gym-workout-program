@@ -4,14 +4,15 @@ import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div style={{ backgroundColor: "white", minHeight: "100vh", color: "black", padding: "20px" }}>
+    <>
+      <style>{`body { background-color: white !important; color: black !important; }`}</style>
       <Layout>
         <main>
           <Hero />
           <Grid />
         </main>
       </Layout>
-    </div>
+    </>
   );
 }
 
