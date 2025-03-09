@@ -2,11 +2,11 @@ import Grid from "./components/Grid"
 import Hero from "./components/Hero"
 import Layout from "./components/Layout"
 
+
 function App() {
-
-    return (
-
-    <Layout>
+  return (
+    
+      <Layout>
       <main>
         <Hero />
         <Grid />
