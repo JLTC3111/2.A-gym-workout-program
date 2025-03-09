@@ -4,9 +4,7 @@ import Layout from "./components/Layout"
 
 function App() {
   return (
-    <div style={{ backgroundColor: "white", minHeight: "100vh", color: "black" }}>
-      <h1>Hello, World!</h1>
-    </div>
+    <div style={{ backgroundColor: "white", minHeight: "100vh", color: "black" }}></div>
   );
 
     return (
