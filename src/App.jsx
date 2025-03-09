@@ -8,11 +8,8 @@ function App() {
       <h1>Hello, World!</h1>
     </div>
   );
-}
 
-
-function App() {
-  return (
+    return (
 
     <Layout>
       <main>
